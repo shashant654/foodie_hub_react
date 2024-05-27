@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid gray;
+}
+
+.nav-items ul{
+  list-style: none;
+  display: flex;
+}
+
+.nav-items ul li{
+  padding: 10px ;
+}
+
+.logo{
+  width: 130px;
+  height: 100px;
+}
+
+.card img{
+  height: 100px;
+  width: 100%;
+}
+
+.card{
+  border: 0.5px solid black;
+  width: 147px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding: 5px;
+  height: 230px; 
+  /* gap: -10px; */
+
+}
+
+.restaurant-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.search-container{
+  margin-left: 10px;
+  display: flex;
+  gap: 15px;
+}
